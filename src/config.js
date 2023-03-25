@@ -90,6 +90,12 @@ const angelsWing = {
   software_id: 'eec3d0ed8ce748499e777600eeb1a1af'
 }
 
+//云管家
+const cloudStewardApp = {
+  name: 'H5-cloud-steward-app-test',
+  software_id: 'b37b8ed5ffe348ddb662f567de8e28fd'
+}
+
 export default {
   pList:{
     manage,
@@ -107,6 +113,7 @@ export default {
     'chart(图表)': chart,
     'chat(聊天)': chat,
     'angelsWing(云诊室)': angelsWing,
+    'cloudStewardApp(云管家)': cloudStewardApp,
   },
   commonUrl:{
     getSign: 'https://test-platform-gateway.lonch.com.cn/osssign/sign/getSign',
